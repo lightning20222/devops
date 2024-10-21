@@ -1,0 +1,91 @@
+Local Repository Operations
+1. Initialize a Git Repository:
+git init
+Initializes a new Git repository in your project directory.
+
+2. Clone a Repository:
+git clone <repository_url>
+Creates a copy of a remote repository on your local machine.
+
+3. Check Repository Status:
+git status
+Displays the current state of the working directory and the staging area.
+
+4. Stage Files for Commit:
+git add <file_name>
+Stages files for the next commit.
+
+5. Commit Changes:
+git commit -m "Commit message"
+Records changes in the local repository.
+
+6. Amend a Commit:
+git commit --amend
+Modifies the most recent commit.
+
+7. View Commit History:
+git log
+Shows the commit history.
+
+8. View a Specific Commit:
+git show <commit_hash>
+Displays details of a particular commit.
+
+9. Create a New Branch:
+git branch <branch_name>
+Creates a new branch.
+
+10. Switch to Another Branch:
+git checkout <branch_name>
+Switches to the specified branch.
+
+11. Rename a Branch:
+git branch -m <old_name> <new_name>
+Renames the current branch.
+
+12. Delete a Branch:
+git branch -d <branch_name>
+Deletes the specified branch.
+
+Remote Repository Operations
+13. Add a Remote Repository:
+git remote add origin <remote_repository_url>
+Adds a new remote repository to your project.
+
+14. View Remote Repositories:
+git remote -v
+Displays the remote repositories.
+
+15. Push Changes to Remote Repository:
+git push origin <branch_name>
+Pushes the committed changes to the remote repository.
+
+16. Pull Updates from Remote Repository:
+git pull origin <branch_name>
+Fetches and integrates changes from the remote repository.
+
+17. Fetch Changes from Remote:
+git fetch origin
+Downloads changes from the remote repository without merging.
+
+18. Push All Branches to Remote:
+git push --all origin
+Pushes all local branches to the remote repository.
+
+19. Push Tags to Remote:
+git push origin --tags
+Pushes all local tags to the remote repository.
+
+20. Remove a Remote Repository:
+git remote remove origin
+Removes a remote repository from your local Git configuration.
+
+Additional Tips:
+> Stashing Changes:
+git stash
+Temporarily stores changes that are not ready to commit.
+
+> Checking Differences:
+git diff
+Shows the differences between your working directory and the last commit.
+
