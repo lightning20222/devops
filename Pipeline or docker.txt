@@ -1,0 +1,5 @@
+If you need the pipeline code, or an dockerfile you can find it in my github  repo:
+
+https://github.com/Dark-Kernel/node-api/blob/master/Jenkinsfile
+
+https://github.com/Dark-Kernel/node-api/blob/master/Dockerfile 
